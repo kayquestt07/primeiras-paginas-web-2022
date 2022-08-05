@@ -4,7 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Página Culinária</title>
   </head>
-  <body></body>
+
+  <body>
+      <div class="conteudo">
+      <header class="cabecalho"> 
+        <img class="imagemcabecalho" src="logocabecalho.webp" alt="crianca-na-cozinha-fazendo-uma-receita-com-um-chapeu-de-chef">
+        <h1 class="titulocabecalho">Receitinhas Lendárias</h1>
+
+        <div class="nav">
+          <ul>
+            <li class="item"><button class="botao" onclick="filtrarReceitas('todos')">Todos</button></li>
+            <li class="item"><button class="botao" onclick="filtrarReceitas('bolos')">Bolos</button></li>
+            <li class="item"><button class="botao" onclick="filtrarReceitas('carnes')">Carnes</button></li>
+            <li class="item"><button class="botao" onclick="filtrarReceitas('bebidas')">Bebidas</button></li>
+          </ul>
+        </div>
+        
+      
+      </header>
+
+
+        <div class="posicao-receitas">
+
+         <div class="receitas">
+         <img class="imagem-receita" src="bolodemilho.jpg">
+         <p class="receita-titulo">Bolo de Milho</p>
+         <p class="categoria-receita">Bolos</p>
+         <img class="coracao" src="coracao.png" alt="coracão transparente">
+         </div>
+
+         <div class="receitas">
+          <img class="imagem-receita" src="bolodecenoura.webp">
+          <p class="receita-titulo">Bolo de Cenoura</p>
+          <p class="categoria-receita">Bolos</p>
+          <img class="coracao" src="coracao.png" alt="coracão transparente">
+          </div>
+
+          <div class="receitas">
+            <img class="imagem-receita" src="bolodeprestigio">
+            <p class="receita-titulo">Bolo de Prestígio</p>
+            <p class="categoria-receita">Bolos</p>
+            <img class="coracao" src="coracao.png" alt="coracão transparente">
+            </div>
+
+          <div class="receitas">
+            <img class="imagem-receita" src="picanhaassada">
+            <p class="receita-titulo">Picanha Assada</p>
+            <p class="categoria-receita">Carnes</p>
+            <img class="coracao" src="coracao.png" alt="coracão transparente">
+            </div>
+
+          <div class="receitas">
+            <img class="imagem-receita" src="costelaassada">
+            <p class="receita-titulo">Costela Assada</p>
+            <p class="categoria-receita">Carnes</p>
+            <img class="coracao" src="coracao.png" alt="coracão transparente">
+            </div>
+
+          <div class="receitas">
+            <img class="imagem-receita" src="linguiça">
+            <p class="receita-titulo">Linguiça Toscana</p>
+            <p class="categoria-receita">Carnes</p>
+            <img class="coracao" src="coracao.png" alt="coracão transparente">
+            </div>
+
+          <div class="receitas">
+            <img class="imagem-receita" src="sucodelaranja">
+            <p class="receita-titulo">Suco de Laranja</p>
+            <p class="categoria-receita">Bebidas</p>
+            <img class="coracao" src="coracao.png" alt="coracão transparente">
+            </div>
+
+          <div class="receitas">
+            <img class="imagem-receita" src="sucodemaracuja">
+            <p class="receita-titulo">Suco de Maracujá</p>
+            <p class="categoria-receita">Bebidas</p>
+            <img class="coracao" src="coracao.png" alt="coracão transparente">
+            </div>
+
+          <div class="receitas">
+            <img class="imagem-receita" src="sucodeuva">
+            <p class="receita-titulo">Suco de Uva</p>
+            <p class="categoria-receita">Bebidas</p>
+            <img class="coracao" src="coracao.png" alt="coracão transparente">
+             </div>
+
+
+              </div>
+  
+
+
+        
+
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
 </html>
